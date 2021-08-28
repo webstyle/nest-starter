@@ -8,7 +8,7 @@ const defaultPool: KnexPoolOptions = { min: 0, max: 7 }
 
 @Injectable()
 export class KnexService {
-    knex: QueryBuilder
+    private knex: QueryBuilder
 
     constructor(@InjectPinoLogger(KnexService.name) private readonly logger: PinoLogger) {}
 
@@ -16,10 +16,17 @@ export class KnexService {
         let conn = {
             client: 'pg',
             connection,
+            migrations: {
+                tableName: 'migrations'
+            },
             pool
         }
         this.knex = Knex(conn)
         this.checkState()
+        return this.knex;
+    }
+
+    getKnex() {
         return this.knex;
     }
 

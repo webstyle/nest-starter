@@ -3,7 +3,7 @@ import { CommonModule } from 'src/common/common.module';
 import { AuthController } from './controllers/auth.controller';
 
 @Module({
-    controllers: [AuthController],
+    controllers: [],
     imports: [CommonModule]
 })
 export class AuthModule {}

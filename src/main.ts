@@ -4,7 +4,7 @@ import { SwaggerModule } from '@nestjs/swagger';
 import { Logger } from 'nestjs-pino';
 
 import { AppModule } from './app.module';
-import { KnexService } from './common/db/knex.service';
+import { KnexService } from './common/knex';
 import { swaggerConfig } from './swagger';
 
 const signalsNames: NodeJS.Signals[] = ['SIGTERM', 'SIGINT', 'SIGHUP'];
