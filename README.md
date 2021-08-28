@@ -13,7 +13,7 @@
 * knexjs
 * class-validator
 * nestjs-swagger
-* winston
+* pino
 * docker
 
 ## Installation
