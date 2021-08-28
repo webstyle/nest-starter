@@ -1,8 +1,8 @@
 {
   "name": "nest-starter",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Nestjs starter application",
+  "author": "Farrukhjon Mamatkhalilov",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

@@ -15,6 +15,7 @@
 * Swagger
 * pino
 * Docker
+* kubernetes
 * PostgreSQL
 
 ## Installation
