@@ -12,11 +12,14 @@
 ## Used dependecies
 * knexjs
 * class-validator
-* nestjs-swagger
+* Swagger
 * pino
-* docker
+* Docker
+* PostgreSQL
 
 ## Installation
+
+### Important! Docker-destop should be installed
 
 ```bash
 $ npm install
