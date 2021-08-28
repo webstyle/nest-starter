@@ -23,6 +23,10 @@
 ### Important! Docker-destop should be installed
 
 ```bash
+$ docker-compose up -d
+```
+
+```bash
 $ npm install
 ```
 
