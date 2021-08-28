@@ -3,8 +3,8 @@ import { NestFactory } from '@nestjs/core';
 import { SwaggerModule } from '@nestjs/swagger';
 import { Logger } from 'nestjs-pino';
 
-import { AppModule } from './app/app.module';
-import { KnexService } from './common/knex';
+import { AppModule } from './app';
+import { KnexService } from './common';
 import { swaggerConfig } from './swagger';
 
 const signalsNames: NodeJS.Signals[] = ['SIGTERM', 'SIGINT', 'SIGHUP'];
