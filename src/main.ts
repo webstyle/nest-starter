@@ -3,7 +3,7 @@ import { NestFactory } from '@nestjs/core';
 import { SwaggerModule } from '@nestjs/swagger';
 import { Logger } from 'nestjs-pino';
 
-import { AppModule } from './app.module';
+import { AppModule } from './app/app.module';
 import { KnexService } from './common/knex';
 import { swaggerConfig } from './swagger';
 
